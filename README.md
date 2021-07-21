@@ -32,8 +32,8 @@ Google APIs Client Libraries, in [Client Libraries Explained][explained].
 * [Quickstart](#quickstart)
   * [Before you begin](#before-you-begin)
   * [Installing the client library](#installing-the-client-library)
-
-
+  * [Using the client library](#using-the-client-library)
+* [Samples](#samples)
 * [Versioning](#versioning)
 * [Contributing](#contributing)
 * [License](#license)
@@ -55,6 +55,38 @@ npm install @google-cloud/filestore
 ```
 
 
+### Using the client library
+
+```javascript
+/**
+ * TODO(developer): Uncomment these variables before running the sample.
+ */
+// const projectId = 'my-project';
+// const location = 'us-central1-a';
+
+// Imports the Google Cloud Some API library
+const {CloudFilestoreManagerClient} = require('@google-cloud/filestore');
+const client = new CloudFilestoreManagerClient();
+async function listInstances() {
+  for await (const instance of client.listInstancesAsync({
+    parent: `projects/${projectId}/locations/${location}`,
+  })) {
+    console.info(instance);
+  }
+}
+listInstances();
+
+```
+
+
+
+## Samples
+
+Samples are in the [`samples/`](https://github.com/googleapis/nodejs-filestore/tree/master/samples) directory. Each sample's `README.md` has instructions for running its sample.
+
+| Sample                      | Source Code                       | Try it |
+| --------------------------- | --------------------------------- | ------ |
+| Quickstart | [source code](https://github.com/googleapis/nodejs-filestore/blob/master/samples/quickstart.js) | [![Open in Cloud Shell][shell_img]](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/googleapis/nodejs-filestore&page=editor&open_in_editor=samples/quickstart.js,samples/README.md) |
 
 
 
