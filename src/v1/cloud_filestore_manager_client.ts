@@ -495,6 +495,10 @@ export class CloudFilestoreManagerClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.getInstance(request);
+   *
+   * @example <caption>include:samples/generated/v1/cloud_filestore_manager.get_instance.js</caption>
+   * region_tag:filestore_get_instance_sample
+   *
    */
   getInstance(
     request?: protos.google.cloud.filestore.v1.IGetInstanceRequest,
@@ -581,6 +585,10 @@ export class CloudFilestoreManagerClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.getBackup(request);
+   *
+   * @example <caption>include:samples/generated/v1/cloud_filestore_manager.get_backup.js</caption>
+   * region_tag:filestore_get_backup_sample
+   *
    */
   getBackup(
     request?: protos.google.cloud.filestore.v1.IGetBackupRequest,
@@ -687,6 +695,10 @@ export class CloudFilestoreManagerClient {
    * @example
    * const [operation] = await client.createInstance(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1/cloud_filestore_manager.create_instance.js</caption>
+   * region_tag:filestore_create_instance_sample
+   *
    */
   createInstance(
     request?: protos.google.cloud.filestore.v1.ICreateInstanceRequest,
@@ -750,6 +762,10 @@ export class CloudFilestoreManagerClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1/cloud_filestore_manager.create_instance.js</caption>
+   * region_tag:filestore_create_instance_sample
+   *
    */
   async checkCreateInstanceProgress(
     name: string
@@ -836,6 +852,10 @@ export class CloudFilestoreManagerClient {
    * @example
    * const [operation] = await client.updateInstance(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1/cloud_filestore_manager.update_instance.js</caption>
+   * region_tag:filestore_update_instance_sample
+   *
    */
   updateInstance(
     request?: protos.google.cloud.filestore.v1.IUpdateInstanceRequest,
@@ -899,6 +919,10 @@ export class CloudFilestoreManagerClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1/cloud_filestore_manager.update_instance.js</caption>
+   * region_tag:filestore_update_instance_sample
+   *
    */
   async checkUpdateInstanceProgress(
     name: string
@@ -988,6 +1012,10 @@ export class CloudFilestoreManagerClient {
    * @example
    * const [operation] = await client.restoreInstance(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1/cloud_filestore_manager.restore_instance.js</caption>
+   * region_tag:filestore_restore_instance_sample
+   *
    */
   restoreInstance(
     request?: protos.google.cloud.filestore.v1.IRestoreInstanceRequest,
@@ -1051,6 +1079,10 @@ export class CloudFilestoreManagerClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1/cloud_filestore_manager.restore_instance.js</caption>
+   * region_tag:filestore_restore_instance_sample
+   *
    */
   async checkRestoreInstanceProgress(
     name: string
@@ -1130,6 +1162,10 @@ export class CloudFilestoreManagerClient {
    * @example
    * const [operation] = await client.deleteInstance(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1/cloud_filestore_manager.delete_instance.js</caption>
+   * region_tag:filestore_delete_instance_sample
+   *
    */
   deleteInstance(
     request?: protos.google.cloud.filestore.v1.IDeleteInstanceRequest,
@@ -1193,6 +1229,10 @@ export class CloudFilestoreManagerClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1/cloud_filestore_manager.delete_instance.js</caption>
+   * region_tag:filestore_delete_instance_sample
+   *
    */
   async checkDeleteInstanceProgress(
     name: string
@@ -1283,6 +1323,10 @@ export class CloudFilestoreManagerClient {
    * @example
    * const [operation] = await client.createBackup(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1/cloud_filestore_manager.create_backup.js</caption>
+   * region_tag:filestore_create_backup_sample
+   *
    */
   createBackup(
     request?: protos.google.cloud.filestore.v1.ICreateBackupRequest,
@@ -1346,6 +1390,10 @@ export class CloudFilestoreManagerClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1/cloud_filestore_manager.create_backup.js</caption>
+   * region_tag:filestore_create_backup_sample
+   *
    */
   async checkCreateBackupProgress(
     name: string
@@ -1425,6 +1473,10 @@ export class CloudFilestoreManagerClient {
    * @example
    * const [operation] = await client.deleteBackup(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1/cloud_filestore_manager.delete_backup.js</caption>
+   * region_tag:filestore_delete_backup_sample
+   *
    */
   deleteBackup(
     request?: protos.google.cloud.filestore.v1.IDeleteBackupRequest,
@@ -1488,6 +1540,10 @@ export class CloudFilestoreManagerClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1/cloud_filestore_manager.delete_backup.js</caption>
+   * region_tag:filestore_delete_backup_sample
+   *
    */
   async checkDeleteBackupProgress(
     name: string
@@ -1569,6 +1625,10 @@ export class CloudFilestoreManagerClient {
    * @example
    * const [operation] = await client.updateBackup(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1/cloud_filestore_manager.update_backup.js</caption>
+   * region_tag:filestore_update_backup_sample
+   *
    */
   updateBackup(
     request?: protos.google.cloud.filestore.v1.IUpdateBackupRequest,
@@ -1632,6 +1692,10 @@ export class CloudFilestoreManagerClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1/cloud_filestore_manager.update_backup.js</caption>
+   * region_tag:filestore_update_backup_sample
+   *
    */
   async checkUpdateBackupProgress(
     name: string
@@ -1719,6 +1783,10 @@ export class CloudFilestoreManagerClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1/cloud_filestore_manager.list_instances.js</caption>
+   * region_tag:filestore_list_instances_sample
+   *
    */
   listInstances(
     request?: protos.google.cloud.filestore.v1.IListInstancesRequest,
@@ -1794,6 +1862,10 @@ export class CloudFilestoreManagerClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1/cloud_filestore_manager.list_instances.js</caption>
+   * region_tag:filestore_list_instances_sample
+   *
    */
   listInstancesStream(
     request?: protos.google.cloud.filestore.v1.IListInstancesRequest,
@@ -1807,7 +1879,8 @@ export class CloudFilestoreManagerClient {
       gax.routingHeader.fromParams({
         parent: request.parent || '',
       });
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listInstances'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listInstances.createStream(
       this.innerApiCalls.listInstances as gax.GaxCall,
@@ -1852,6 +1925,10 @@ export class CloudFilestoreManagerClient {
    * for await (const response of iterable) {
    *   // process response
    * }
+   *
+   * @example <caption>include:samples/generated/v1/cloud_filestore_manager.list_instances.js</caption>
+   * region_tag:filestore_list_instances_sample
+   *
    */
   listInstancesAsync(
     request?: protos.google.cloud.filestore.v1.IListInstancesRequest,
@@ -1866,7 +1943,8 @@ export class CloudFilestoreManagerClient {
         parent: request.parent || '',
       });
     options = options || {};
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listInstances'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listInstances.asyncIterate(
       this.innerApiCalls['listInstances'] as GaxCall,
@@ -1935,6 +2013,10 @@ export class CloudFilestoreManagerClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1/cloud_filestore_manager.list_backups.js</caption>
+   * region_tag:filestore_list_backups_sample
+   *
    */
   listBackups(
     request?: protos.google.cloud.filestore.v1.IListBackupsRequest,
@@ -2009,6 +2091,10 @@ export class CloudFilestoreManagerClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1/cloud_filestore_manager.list_backups.js</caption>
+   * region_tag:filestore_list_backups_sample
+   *
    */
   listBackupsStream(
     request?: protos.google.cloud.filestore.v1.IListBackupsRequest,
@@ -2022,7 +2108,8 @@ export class CloudFilestoreManagerClient {
       gax.routingHeader.fromParams({
         parent: request.parent || '',
       });
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listBackups'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listBackups.createStream(
       this.innerApiCalls.listBackups as gax.GaxCall,
@@ -2068,6 +2155,10 @@ export class CloudFilestoreManagerClient {
    * for await (const response of iterable) {
    *   // process response
    * }
+   *
+   * @example <caption>include:samples/generated/v1/cloud_filestore_manager.list_backups.js</caption>
+   * region_tag:filestore_list_backups_sample
+   *
    */
   listBackupsAsync(
     request?: protos.google.cloud.filestore.v1.IListBackupsRequest,
@@ -2082,7 +2173,8 @@ export class CloudFilestoreManagerClient {
         parent: request.parent || '',
       });
     options = options || {};
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listBackups'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listBackups.asyncIterate(
       this.innerApiCalls['listBackups'] as GaxCall,
