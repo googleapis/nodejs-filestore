@@ -334,77 +334,77 @@ export namespace google {
                 namespace CloudFilestoreManager {
 
                     /**
-                     * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager|listInstances}.
+                     * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager#listInstances}.
                      * @param error Error, if any
                      * @param [response] ListInstancesResponse
                      */
                     type ListInstancesCallback = (error: (Error|null), response?: google.cloud.filestore.v1.ListInstancesResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager|getInstance}.
+                     * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager#getInstance}.
                      * @param error Error, if any
                      * @param [response] Instance
                      */
                     type GetInstanceCallback = (error: (Error|null), response?: google.cloud.filestore.v1.Instance) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager|createInstance}.
+                     * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager#createInstance}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateInstanceCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager|updateInstance}.
+                     * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager#updateInstance}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateInstanceCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager|restoreInstance}.
+                     * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager#restoreInstance}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type RestoreInstanceCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager|deleteInstance}.
+                     * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager#deleteInstance}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeleteInstanceCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager|listBackups}.
+                     * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager#listBackups}.
                      * @param error Error, if any
                      * @param [response] ListBackupsResponse
                      */
                     type ListBackupsCallback = (error: (Error|null), response?: google.cloud.filestore.v1.ListBackupsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager|getBackup}.
+                     * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager#getBackup}.
                      * @param error Error, if any
                      * @param [response] Backup
                      */
                     type GetBackupCallback = (error: (Error|null), response?: google.cloud.filestore.v1.Backup) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager|createBackup}.
+                     * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager#createBackup}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateBackupCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager|deleteBackup}.
+                     * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager#deleteBackup}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeleteBackupCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager|updateBackup}.
+                     * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager#updateBackup}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
@@ -2587,77 +2587,77 @@ export namespace google {
                 namespace CloudFilestoreManager {
 
                     /**
-                     * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager|listInstances}.
+                     * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager#listInstances}.
                      * @param error Error, if any
                      * @param [response] ListInstancesResponse
                      */
                     type ListInstancesCallback = (error: (Error|null), response?: google.cloud.filestore.v1beta1.ListInstancesResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager|getInstance}.
+                     * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager#getInstance}.
                      * @param error Error, if any
                      * @param [response] Instance
                      */
                     type GetInstanceCallback = (error: (Error|null), response?: google.cloud.filestore.v1beta1.Instance) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager|createInstance}.
+                     * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager#createInstance}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateInstanceCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager|updateInstance}.
+                     * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager#updateInstance}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateInstanceCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager|restoreInstance}.
+                     * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager#restoreInstance}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type RestoreInstanceCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager|deleteInstance}.
+                     * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager#deleteInstance}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeleteInstanceCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager|listBackups}.
+                     * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager#listBackups}.
                      * @param error Error, if any
                      * @param [response] ListBackupsResponse
                      */
                     type ListBackupsCallback = (error: (Error|null), response?: google.cloud.filestore.v1beta1.ListBackupsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager|getBackup}.
+                     * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager#getBackup}.
                      * @param error Error, if any
                      * @param [response] Backup
                      */
                     type GetBackupCallback = (error: (Error|null), response?: google.cloud.filestore.v1beta1.Backup) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager|createBackup}.
+                     * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager#createBackup}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateBackupCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager|deleteBackup}.
+                     * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager#deleteBackup}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeleteBackupCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager|updateBackup}.
+                     * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager#updateBackup}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
@@ -7245,9 +7245,6 @@ export namespace google {
             /** FieldOptions lazy */
             lazy?: (boolean|null);
 
-            /** FieldOptions unverifiedLazy */
-            unverifiedLazy?: (boolean|null);
-
             /** FieldOptions deprecated */
             deprecated?: (boolean|null);
 
@@ -7284,9 +7281,6 @@ export namespace google {
 
             /** FieldOptions lazy. */
             public lazy: boolean;
-
-            /** FieldOptions unverifiedLazy. */
-            public unverifiedLazy: boolean;
 
             /** FieldOptions deprecated. */
             public deprecated: boolean;
@@ -9899,35 +9893,35 @@ export namespace google {
         namespace Operations {
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|listOperations}.
+             * Callback as used by {@link google.longrunning.Operations#listOperations}.
              * @param error Error, if any
              * @param [response] ListOperationsResponse
              */
             type ListOperationsCallback = (error: (Error|null), response?: google.longrunning.ListOperationsResponse) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|getOperation}.
+             * Callback as used by {@link google.longrunning.Operations#getOperation}.
              * @param error Error, if any
              * @param [response] Operation
              */
             type GetOperationCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|deleteOperation}.
+             * Callback as used by {@link google.longrunning.Operations#deleteOperation}.
              * @param error Error, if any
              * @param [response] Empty
              */
             type DeleteOperationCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|cancelOperation}.
+             * Callback as used by {@link google.longrunning.Operations#cancelOperation}.
              * @param error Error, if any
              * @param [response] Empty
              */
             type CancelOperationCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|waitOperation}.
+             * Callback as used by {@link google.longrunning.Operations#waitOperation}.
              * @param error Error, if any
              * @param [response] Operation
              */

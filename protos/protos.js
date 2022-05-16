@@ -441,7 +441,7 @@
                         };
     
                         /**
-                         * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager|listInstances}.
+                         * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager#listInstances}.
                          * @memberof google.cloud.filestore.v1.CloudFilestoreManager
                          * @typedef ListInstancesCallback
                          * @type {function}
@@ -474,7 +474,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager|getInstance}.
+                         * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager#getInstance}.
                          * @memberof google.cloud.filestore.v1.CloudFilestoreManager
                          * @typedef GetInstanceCallback
                          * @type {function}
@@ -507,7 +507,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager|createInstance}.
+                         * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager#createInstance}.
                          * @memberof google.cloud.filestore.v1.CloudFilestoreManager
                          * @typedef CreateInstanceCallback
                          * @type {function}
@@ -540,7 +540,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager|updateInstance}.
+                         * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager#updateInstance}.
                          * @memberof google.cloud.filestore.v1.CloudFilestoreManager
                          * @typedef UpdateInstanceCallback
                          * @type {function}
@@ -573,7 +573,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager|restoreInstance}.
+                         * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager#restoreInstance}.
                          * @memberof google.cloud.filestore.v1.CloudFilestoreManager
                          * @typedef RestoreInstanceCallback
                          * @type {function}
@@ -606,7 +606,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager|deleteInstance}.
+                         * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager#deleteInstance}.
                          * @memberof google.cloud.filestore.v1.CloudFilestoreManager
                          * @typedef DeleteInstanceCallback
                          * @type {function}
@@ -639,7 +639,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager|listBackups}.
+                         * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager#listBackups}.
                          * @memberof google.cloud.filestore.v1.CloudFilestoreManager
                          * @typedef ListBackupsCallback
                          * @type {function}
@@ -672,7 +672,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager|getBackup}.
+                         * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager#getBackup}.
                          * @memberof google.cloud.filestore.v1.CloudFilestoreManager
                          * @typedef GetBackupCallback
                          * @type {function}
@@ -705,7 +705,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager|createBackup}.
+                         * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager#createBackup}.
                          * @memberof google.cloud.filestore.v1.CloudFilestoreManager
                          * @typedef CreateBackupCallback
                          * @type {function}
@@ -738,7 +738,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager|deleteBackup}.
+                         * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager#deleteBackup}.
                          * @memberof google.cloud.filestore.v1.CloudFilestoreManager
                          * @typedef DeleteBackupCallback
                          * @type {function}
@@ -771,7 +771,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager|updateBackup}.
+                         * Callback as used by {@link google.cloud.filestore.v1.CloudFilestoreManager#updateBackup}.
                          * @memberof google.cloud.filestore.v1.CloudFilestoreManager
                          * @typedef UpdateBackupCallback
                          * @type {function}
@@ -6093,7 +6093,7 @@
                         };
     
                         /**
-                         * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager|listInstances}.
+                         * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager#listInstances}.
                          * @memberof google.cloud.filestore.v1beta1.CloudFilestoreManager
                          * @typedef ListInstancesCallback
                          * @type {function}
@@ -6126,7 +6126,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager|getInstance}.
+                         * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager#getInstance}.
                          * @memberof google.cloud.filestore.v1beta1.CloudFilestoreManager
                          * @typedef GetInstanceCallback
                          * @type {function}
@@ -6159,7 +6159,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager|createInstance}.
+                         * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager#createInstance}.
                          * @memberof google.cloud.filestore.v1beta1.CloudFilestoreManager
                          * @typedef CreateInstanceCallback
                          * @type {function}
@@ -6192,7 +6192,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager|updateInstance}.
+                         * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager#updateInstance}.
                          * @memberof google.cloud.filestore.v1beta1.CloudFilestoreManager
                          * @typedef UpdateInstanceCallback
                          * @type {function}
@@ -6225,7 +6225,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager|restoreInstance}.
+                         * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager#restoreInstance}.
                          * @memberof google.cloud.filestore.v1beta1.CloudFilestoreManager
                          * @typedef RestoreInstanceCallback
                          * @type {function}
@@ -6258,7 +6258,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager|deleteInstance}.
+                         * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager#deleteInstance}.
                          * @memberof google.cloud.filestore.v1beta1.CloudFilestoreManager
                          * @typedef DeleteInstanceCallback
                          * @type {function}
@@ -6291,7 +6291,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager|listBackups}.
+                         * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager#listBackups}.
                          * @memberof google.cloud.filestore.v1beta1.CloudFilestoreManager
                          * @typedef ListBackupsCallback
                          * @type {function}
@@ -6324,7 +6324,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager|getBackup}.
+                         * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager#getBackup}.
                          * @memberof google.cloud.filestore.v1beta1.CloudFilestoreManager
                          * @typedef GetBackupCallback
                          * @type {function}
@@ -6357,7 +6357,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager|createBackup}.
+                         * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager#createBackup}.
                          * @memberof google.cloud.filestore.v1beta1.CloudFilestoreManager
                          * @typedef CreateBackupCallback
                          * @type {function}
@@ -6390,7 +6390,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager|deleteBackup}.
+                         * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager#deleteBackup}.
                          * @memberof google.cloud.filestore.v1beta1.CloudFilestoreManager
                          * @typedef DeleteBackupCallback
                          * @type {function}
@@ -6423,7 +6423,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager|updateBackup}.
+                         * Callback as used by {@link google.cloud.filestore.v1beta1.CloudFilestoreManager#updateBackup}.
                          * @memberof google.cloud.filestore.v1beta1.CloudFilestoreManager
                          * @typedef UpdateBackupCallback
                          * @type {function}
@@ -18934,7 +18934,6 @@
                  * @property {boolean|null} [packed] FieldOptions packed
                  * @property {google.protobuf.FieldOptions.JSType|null} [jstype] FieldOptions jstype
                  * @property {boolean|null} [lazy] FieldOptions lazy
-                 * @property {boolean|null} [unverifiedLazy] FieldOptions unverifiedLazy
                  * @property {boolean|null} [deprecated] FieldOptions deprecated
                  * @property {boolean|null} [weak] FieldOptions weak
                  * @property {Array.<google.protobuf.IUninterpretedOption>|null} [uninterpretedOption] FieldOptions uninterpretedOption
@@ -18990,14 +18989,6 @@
                  * @instance
                  */
                 FieldOptions.prototype.lazy = false;
-    
-                /**
-                 * FieldOptions unverifiedLazy.
-                 * @member {boolean} unverifiedLazy
-                 * @memberof google.protobuf.FieldOptions
-                 * @instance
-                 */
-                FieldOptions.prototype.unverifiedLazy = false;
     
                 /**
                  * FieldOptions deprecated.
@@ -19075,8 +19066,6 @@
                         writer.uint32(/* id 6, wireType 0 =*/48).int32(message.jstype);
                     if (message.weak != null && Object.hasOwnProperty.call(message, "weak"))
                         writer.uint32(/* id 10, wireType 0 =*/80).bool(message.weak);
-                    if (message.unverifiedLazy != null && Object.hasOwnProperty.call(message, "unverifiedLazy"))
-                        writer.uint32(/* id 15, wireType 0 =*/120).bool(message.unverifiedLazy);
                     if (message.uninterpretedOption != null && message.uninterpretedOption.length)
                         for (var i = 0; i < message.uninterpretedOption.length; ++i)
                             $root.google.protobuf.UninterpretedOption.encode(message.uninterpretedOption[i], writer.uint32(/* id 999, wireType 2 =*/7994).fork()).ldelim();
@@ -19133,9 +19122,6 @@
                             break;
                         case 5:
                             message.lazy = reader.bool();
-                            break;
-                        case 15:
-                            message.unverifiedLazy = reader.bool();
                             break;
                         case 3:
                             message.deprecated = reader.bool();
@@ -19220,9 +19206,6 @@
                     if (message.lazy != null && message.hasOwnProperty("lazy"))
                         if (typeof message.lazy !== "boolean")
                             return "lazy: boolean expected";
-                    if (message.unverifiedLazy != null && message.hasOwnProperty("unverifiedLazy"))
-                        if (typeof message.unverifiedLazy !== "boolean")
-                            return "unverifiedLazy: boolean expected";
                     if (message.deprecated != null && message.hasOwnProperty("deprecated"))
                         if (typeof message.deprecated !== "boolean")
                             return "deprecated: boolean expected";
@@ -19308,8 +19291,6 @@
                     }
                     if (object.lazy != null)
                         message.lazy = Boolean(object.lazy);
-                    if (object.unverifiedLazy != null)
-                        message.unverifiedLazy = Boolean(object.unverifiedLazy);
                     if (object.deprecated != null)
                         message.deprecated = Boolean(object.deprecated);
                     if (object.weak != null)
@@ -19397,7 +19378,6 @@
                         object.lazy = false;
                         object.jstype = options.enums === String ? "JS_NORMAL" : 0;
                         object.weak = false;
-                        object.unverifiedLazy = false;
                         object[".google.api.resourceReference"] = null;
                     }
                     if (message.ctype != null && message.hasOwnProperty("ctype"))
@@ -19412,8 +19392,6 @@
                         object.jstype = options.enums === String ? $root.google.protobuf.FieldOptions.JSType[message.jstype] : message.jstype;
                     if (message.weak != null && message.hasOwnProperty("weak"))
                         object.weak = message.weak;
-                    if (message.unverifiedLazy != null && message.hasOwnProperty("unverifiedLazy"))
-                        object.unverifiedLazy = message.unverifiedLazy;
                     if (message.uninterpretedOption && message.uninterpretedOption.length) {
                         object.uninterpretedOption = [];
                         for (var j = 0; j < message.uninterpretedOption.length; ++j)
@@ -25246,7 +25224,7 @@
                 };
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations|listOperations}.
+                 * Callback as used by {@link google.longrunning.Operations#listOperations}.
                  * @memberof google.longrunning.Operations
                  * @typedef ListOperationsCallback
                  * @type {function}
@@ -25279,7 +25257,7 @@
                  */
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations|getOperation}.
+                 * Callback as used by {@link google.longrunning.Operations#getOperation}.
                  * @memberof google.longrunning.Operations
                  * @typedef GetOperationCallback
                  * @type {function}
@@ -25312,7 +25290,7 @@
                  */
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations|deleteOperation}.
+                 * Callback as used by {@link google.longrunning.Operations#deleteOperation}.
                  * @memberof google.longrunning.Operations
                  * @typedef DeleteOperationCallback
                  * @type {function}
@@ -25345,7 +25323,7 @@
                  */
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations|cancelOperation}.
+                 * Callback as used by {@link google.longrunning.Operations#cancelOperation}.
                  * @memberof google.longrunning.Operations
                  * @typedef CancelOperationCallback
                  * @type {function}
@@ -25378,7 +25356,7 @@
                  */
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations|waitOperation}.
+                 * Callback as used by {@link google.longrunning.Operations#waitOperation}.
                  * @memberof google.longrunning.Operations
                  * @typedef WaitOperationCallback
                  * @type {function}
